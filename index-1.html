@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manish Ghimire — Content Creator, Graphic Designer & Future App Developer from Nepal. Exploring technology, innovation, agriculture, and music." />
+  <meta name="keywords" content="Manish Ghimire, Nepal, Content Creator, Graphic Designer, App Developer, Portfolio" />
+  <meta name="author" content="Manish Ghimire" />
+  <meta property="og:title" content="Manish Ghimire | Creative Portfolio" />
+  <meta property="og:description" content="Content Creator · Graphic Designer · Future App Developer" />
+  <meta property="og:type" content="website" />
+  <title>Manish Ghimire | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Manish Ghimire Home">
+        <span class="logo-text">MG</span>
+        <span class="logo-dot"></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+          <i class="ri-sun-line" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+
+    <div class="hero-container">
+      <div class="hero-content" data-reveal>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for work · Nepal 🇳🇵
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Manish</span><br />
+          <span class="typing-wrapper">
+            <span class="typed-text" id="typedText"></span>
+            <span class="cursor-blink">|</span>
+          </span>
+        </h1>
+
+        <p class="hero-desc">
+          Content Creator &amp; Graphic Designer from Nepal, building at the intersection of
+          <em>creativity</em>, <em>technology</em>, and <em>innovation</em>. Crafting visuals that speak
+          and stories that resonate.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            View My Work <i class="ri-arrow-right-line"></i>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            Let's Connect <i class="ri-send-plane-line"></i>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years Creating</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">10K+</span>
+            <span class="stat-label">Audience Reached</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal-delay="200">
+        <div class="hero-card glass-card">
+          <div class="card-profile">
+            <div class="profile-avatar">
+              <span>MG</span>
+              <div class="avatar-ring"></div>
+            </div>
+            <div class="profile-info">
+              <strong>Manish Ghimire</strong>
+              <span>Nepal 🌏</span>
+            </div>
+          </div>
+          <div class="card-tags">
+            <span class="tag tag-blue"><i class="ri-video-line"></i> Content</span>
+            <span class="tag tag-purple"><i class="ri-palette-line"></i> Design</span>
+            <span class="tag tag-green"><i class="ri-code-s-slash-line"></i> Dev</span>
+          </div>
+          <div class="card-interests">
+            <span><i class="ri-cpu-line"></i> Tech</span>
+            <span><i class="ri-lightbulb-flash-line"></i> Innovation</span>
+            <span><i class="ri-plant-line"></i> Agriculture</span>
+            <span><i class="ri-music-2-line"></i> Music</span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-top-right glass-card">
+          <i class="ri-star-fill" style="color:#f59e0b"></i>
+          <span>Top Creator</span>
+        </div>
+        <div class="floating-badge badge-bottom-left glass-card">
+          <i class="ri-brush-2-fill" style="color:#818cf8"></i>
+          <span>UI/UX Design</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">The person behind<br /><span class="gradient-text">the craft</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <p class="about-lead">
+            I'm <strong>Manish Ghimire</strong>, a multi-disciplinary creative from the heart of Nepal 🇳🇵.
+            I believe every pixel, every frame, and every line of code is an opportunity to tell a story.
+          </p>
+          <p>
+            With a background spanning <strong>content creation</strong>, <strong>graphic design</strong>, and a deep
+            passion for building technology, I'm on a journey to become a full-stack app developer —
+            blending creative instinct with engineering precision.
+          </p>
+          <p>
+            Beyond screens, I find inspiration in <strong>agriculture</strong> (Nepal's roots run deep), <strong>music</strong>
+            that fuels late-night sessions, and <strong>innovation</strong> that challenges the status quo.
+          </p>
+
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="ri-map-pin-2-line"></i>
+              <span>Nepal</span>
+            </div>
+            <div class="detail-item">
+              <i class="ri-graduation-cap-line"></i>
+              <span>Self-taught &amp; Growing</span>
+            </div>
+            <div class="detail-item">
+              <i class="ri-global-line"></i>
+              <span>Open to Remote Work</span>
+            </div>
+            <div class="detail-item">
+              <i class="ri-speak-line"></i>
+              <span>Nepali &amp; English</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">
+            Work With Me <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <div class="about-cards" data-reveal-delay="150">
+          <div class="about-card glass-card">
+            <div class="about-card-icon" style="background:rgba(99,102,241,0.15)">
+              <i class="ri-video-fill" style="color:#818cf8"></i>
+            </div>
+            <h3>Content Creation</h3>
+            <p>Producing engaging YouTube videos and social content that educate, inspire, and entertain.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="about-card-icon" style="background:rgba(236,72,153,0.15)">
+              <i class="ri-palette-fill" style="color:#f472b6"></i>
+            </div>
+            <h3>Graphic Design</h3>
+            <p>Creating visual identities, thumbnails, posters, and brand assets that make people stop scrolling.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="about-card-icon" style="background:rgba(16,185,129,0.15)">
+              <i class="ri-smartphone-fill" style="color:#34d399"></i>
+            </div>
+            <h3>App Development</h3>
+            <p>Learning to build modern mobile &amp; web apps — turning ideas into real, working products.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="about-card-icon" style="background:rgba(245,158,11,0.15)">
+              <i class="ri-lightbulb-fill" style="color:#fbbf24"></i>
+            </div>
+            <h3>Innovation Thinking</h3>
+            <p>Exploring how technology and agriculture can intersect to build a better, smarter Nepal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Skills</span>
+        <h2 class="section-title">Tools &amp; <span class="gradient-text">Expertise</span></h2>
+      </div>
+
+      <div class="skills-grid" data-reveal>
+        <!-- Design -->
+        <div class="skill-category glass-card">
+          <h3 class="skill-cat-title"><i class="ri-palette-line"></i> Design</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Adobe Photoshop</span><span>88%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88" style="background:linear-gradient(90deg,#818cf8,#c084fc)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Adobe Illustrator</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80" style="background:linear-gradient(90deg,#818cf8,#c084fc)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Figma</span><span>75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75" style="background:linear-gradient(90deg,#818cf8,#c084fc)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Canva</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95" style="background:linear-gradient(90deg,#818cf8,#c084fc)"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="skill-category glass-card">
+          <h3 class="skill-cat-title"><i class="ri-video-line"></i> Content</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Video Editing (Premiere)</span><span>82%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82" style="background:linear-gradient(90deg,#f472b6,#fb923c)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>YouTube SEO</span><span>78%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="78" style="background:linear-gradient(90deg,#f472b6,#fb923c)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Scriptwriting</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85" style="background:linear-gradient(90deg,#f472b6,#fb923c)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Social Media Strategy</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80" style="background:linear-gradient(90deg,#f472b6,#fb923c)"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development -->
+        <div class="skill-category glass-card">
+          <h3 class="skill-cat-title"><i class="ri-code-s-slash-line"></i> Development</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>HTML5 &amp; CSS3</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85" style="background:linear-gradient(90deg,#34d399,#06b6d4)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>JavaScript</span><span>65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65" style="background:linear-gradient(90deg,#34d399,#06b6d4)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>React (Learning)</span><span>45%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="45" style="background:linear-gradient(90deg,#34d399,#06b6d4)"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Flutter (Learning)</span><span>35%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="35" style="background:linear-gradient(90deg,#34d399,#06b6d4)"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="skill-category glass-card">
+          <h3 class="skill-cat-title"><i class="ri-fire-line"></i> Interests</h3>
+          <div class="interest-tags">
+            <span class="int-tag"><i class="ri-cpu-line"></i> Technology</span>
+            <span class="int-tag"><i class="ri-lightbulb-flash-line"></i> Innovation</span>
+            <span class="int-tag"><i class="ri-plant-line"></i> Agriculture</span>
+            <span class="int-tag"><i class="ri-music-2-line"></i> Music</span>
+            <span class="int-tag"><i class="ri-camera-line"></i> Photography</span>
+            <span class="int-tag"><i class="ri-book-open-line"></i> Learning</span>
+            <span class="int-tag"><i class="ri-rocket-line"></i> Startups</span>
+            <span class="int-tag"><i class="ri-earth-line"></i> Nature</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Projects</span>
+        <h2 class="section-title">What I've <span class="gradient-text">Built</span></h2>
+      </div>
+
+      <div class="filter-bar" data-reveal>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="content">Content</button>
+        <button class="filter-btn" data-filter="dev">Development</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid" data-reveal>
+
+        <div class="project-card glass-card" data-category="content">
+          <div class="project-img" style="background:linear-gradient(135deg,#312e81,#4c1d95)">
+            <i class="ri-youtube-fill proj-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="ptag">YouTube</span>
+              <span class="ptag">Content</span>
+            </div>
+            <h3>Tech Education Channel</h3>
+            <p>A YouTube channel focused on making technology accessible for Nepali youth — tutorials, reviews, and inspiration.</p>
+            <div class="project-links">
+              <a href="#" class="proj-link" aria-label="View project"><i class="ri-external-link-line"></i> View</a>
+              <a href="#" class="proj-link" aria-label="GitHub"><i class="ri-github-line"></i> Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="design">
+          <div class="project-img" style="background:linear-gradient(135deg,#831843,#9d174d)">
+            <i class="ri-palette-fill proj-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="ptag">Branding</span>
+              <span class="ptag">Design</span>
+            </div>
+            <h3>AgriNepal Brand Identity</h3>
+            <p>Complete visual identity system for a Nepali agri-tech startup — logo, color palette, typography, and brand guidelines.</p>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="ri-external-link-line"></i> View</a>
+              <a href="#" class="proj-link"><i class="ri-dribbble-line"></i> Dribbble</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img" style="background:linear-gradient(135deg,#064e3b,#065f46)">
+            <i class="ri-code-s-slash-fill proj-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="ptag">Web</span>
+              <span class="ptag">Development</span>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>This very portfolio — built with HTML5, CSS3, and Vanilla JS using modern glassmorphism design and smooth animations.</p>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="ri-external-link-line"></i> Live</a>
+              <a href="#" class="proj-link"><i class="ri-github-line"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="content">
+          <div class="project-img" style="background:linear-gradient(135deg,#7c2d12,#9a3412)">
+            <i class="ri-instagram-fill proj-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="ptag">Social Media</span>
+              <span class="ptag">Content</span>
+            </div>
+            <h3>Instagram Growth Strategy</h3>
+            <p>Built and grew an Instagram presence from 0 to 5K+ in 4 months through consistent content, Reels, and community engagement.</p>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="ri-external-link-line"></i> View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="design">
+          <div class="project-img" style="background:linear-gradient(135deg,#1e3a5f,#1e40af)">
+            <i class="ri-newspaper-fill proj-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="ptag">Print</span>
+              <span class="ptag">Design</span>
+            </div>
+            <h3>Event Poster Series</h3>
+            <p>A series of event posters for local tech meetups and cultural events in Nepal — vibrant, modern, culturally inspired.</p>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="ri-external-link-line"></i> View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">
+            <i class="ri-plant-fill proj-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="ptag">Innovation</span>
+              <span class="ptag">App (WIP)</span>
+            </div>
+            <h3>AgriConnect App Concept</h3>
+            <p>An app concept connecting Nepali farmers to markets directly — reducing middlemen and improving farmer incomes using mobile tech.</p>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="ri-external-link-line"></i> Concept</a>
+              <a href="#" class="proj-link"><i class="ri-github-line"></i> WIP</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BLOG SECTION ========== -->
+  <section id="blog" class="section blog-section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Blog</span>
+        <h2 class="section-title">Thoughts &amp; <span class="gradient-text">Insights</span></h2>
+      </div>
+
+      <div class="blog-grid" data-reveal>
+
+        <article class="blog-card glass-card featured">
+          <div class="blog-img" style="background:linear-gradient(135deg,#312e81,#1e3a8a)">
+            <span class="blog-cat-badge">Technology</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span><i class="ri-calendar-line"></i> Jan 2025</span>
+              <span><i class="ri-time-line"></i> 6 min read</span>
+            </div>
+            <h3>How AI is Changing Content Creation in 2025</h3>
+            <p>Exploring how artificial intelligence tools are reshaping the workflow of creators — from scripting to editing — and what it means for independent creators like me.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card glass-card">
+          <div class="blog-img" style="background:linear-gradient(135deg,#064e3b,#0f766e)">
+            <span class="blog-cat-badge">Agriculture</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span><i class="ri-calendar-line"></i> Dec 2024</span>
+              <span><i class="ri-time-line"></i> 5 min read</span>
+            </div>
+            <h3>AgriTech in Nepal: The Untapped Opportunity</h3>
+            <p>Why Nepal's agriculture sector is one of the biggest innovation opportunities in South Asia, and how technology can uplift millions of farmers.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card glass-card">
+          <div class="blog-img" style="background:linear-gradient(135deg,#4a044e,#7e22ce)">
+            <span class="blog-cat-badge">Design</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span><i class="ri-calendar-line"></i> Nov 2024</span>
+              <span><i class="ri-time-line"></i> 4 min read</span>
+            </div>
+            <h3>5 Design Principles Every Beginner Must Know</h3>
+            <p>From contrast to hierarchy — the core principles I learned early on that transformed my design work from amateur to polished.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-sub">Have a project idea, collab opportunity, or just want to say hi? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid" data-reveal>
+        <!-- Info -->
+        <div class="contact-info">
+          <div class="contact-card glass-card">
+            <i class="ri-mail-line"></i>
+            <div>
+              <strong>Email</strong>
+              <span>manish@example.com</span>
+            </div>
+          </div>
+          <div class="contact-card glass-card">
+            <i class="ri-map-pin-line"></i>
+            <div>
+              <strong>Location</strong>
+              <span>Nepal 🇳🇵</span>
+            </div>
+          </div>
+          <div class="contact-card glass-card">
+            <i class="ri-time-line"></i>
+            <div>
+              <strong>Response Time</strong>
+              <span>Within 24 hours</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter/X"><i class="ri-twitter-x-fill"></i></a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form-wrap glass-card">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="femail">Email</label>
+                <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" name="subject" placeholder="What's this about?" />
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Message</label>
+              <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message <i class="ri-send-plane-fill"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="ri-checkbox-circle-fill"></i> Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-text">MG</span>
+            <span class="logo-dot"></span>
+          </a>
+          <p>Content Creator · Graphic Designer · Future App Developer from Nepal 🇳🇵</p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Content Creation</a></li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Brand Identity</a></li>
+            <li><a href="#">Video Editing</a></li>
+            <li><a href="#">Web Design</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Subscribe to get my latest articles and projects.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="your@email.com" aria-label="Email for newsletter" />
+            <button class="btn btn-primary" type="button"><i class="ri-send-plane-fill"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Manish Ghimire. Crafted with <i class="ri-heart-fill" style="color:#f472b6"></i> in Nepal.</span>
+        <span>Built with HTML · CSS · JS</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
